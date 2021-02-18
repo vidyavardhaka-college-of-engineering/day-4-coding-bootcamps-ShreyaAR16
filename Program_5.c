@@ -8,14 +8,14 @@ int main()
     int arr[5], n, i, max,min;
     scanf("%d", &n);
 
-    for(i = 0; i < 5; i++)
+    for(i = 0; i < n; i++)
         scanf("%d", &arr[i]);
 
     //Write your code here
     max = arr[0];
     min = arr[0];
 
-   for(i=1;i < 5;i++)
+   for(i=1;i < n;i++)
      {
        if (arr[i] > max)
           max = arr[i];
