@@ -27,17 +27,17 @@ int main()
 
     for(i=0;i<10;i++)
     {
-    scanf("%d",&[a]);
+    scanf("%d",&a[i]);
     }
     for(i=0;i<10,i++)
     {
      b[i]=a[i];   
     }
-     printf("The elements stored in the first array are:");   
+     printf("The elements stored in the first array are:\n");   
 
      for(i=0;i<10;i++)
      {
-    printf("%d",a[i]);
+    printf("%d\n",a[i]);
      }
     printf("The elements copied into the second array are:\n");
     for(i=0;i<3;i++)
