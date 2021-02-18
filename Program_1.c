@@ -17,7 +17,7 @@ int main()
    //Print the array elements in using printf statement
    int arr[5],N,i;
     
-   printf("Enter 5 integers");
+   printf("Enter 5 integers\n");
     for(i=0;i<5;i++)
      scanf("%d",&arr[i]);
      
